@@ -1,11 +1,12 @@
+[
 {
-		"name": "Tenka Fubu",
-		"uniqueTo": "Japan",
-		"cost": 50,
-		"gold":10,
-    "production":10,
-    "culture":10,
-    "isNationalWonder": true,
+	"name": "Tenka Fubu",
+	"uniqueTo": "Japan",
+	"cost": 50,
+	"gold":10,
+   	 "production":10,
+    	"culture":10,
+   	 "isNationalWonder": true,
 		"uniques": ["Cost increases by [5] per owned city",
 		"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 	  "New [Military] units start with [50] Experience all [non-[Puppeted]] cities", "[+10 Production] [in all cities]","[+5 Science] [in all cities]",
@@ -24,4 +25,78 @@
 	  "New [Military] units start with [70] Experience [in this city]", "[+10 Production] [in all cities]","[+10 Science] [in all cities]","[+5 Gold] [in all cities]","[-25]% construction time for [All] improvements"],
 		"requiredTech": "Mining",
   },
-	       ]
+	{
+		"name": "Dōjō",
+		"replaces": "Barracks",
+		"uniqueTo": "Japan",
+		"culture": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [30] XP [in this city]", "Destroyed when the city is captured",],
+		"requiredTech": "Bronze Working"
+	},
+
+	// Classical Era
+	{
+		"name": "Shinto Shrine",
+		"replaces": "Temple",
+		"uniqueTo": "Japan",
+		"faith": 1,
+		"happiness": 1,
+		"cityStrength": 10,
+		"replaces": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Great Person generation [in this city]", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Osaka Castle",
+		"uniqueTo": "Japan",
+		"culture": 3,
+		"cityStrength": 15,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in this city]"
+		],
+		"requiredTech": "Chivalry",
+		"quote": "'The supreme art of war is to subdue the enemy without fighting.' - Sun Tzu"
+	},
+
+	// Medieval Era
+	{
+		"name": "Kinkaku-ji",
+		"uniqueTo": "Japan",
+		"culture": 4,
+		"gold": 10,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			"[+100]% Great Artist generation [in this city]"
+		],
+		"requiredTech": "Education",
+		"quote": "'In the landscape of spring, there is neither better nor worse. The flowering branches grow naturally, some long, some short.' - Zen saying"
+	},
+
+	// Medieval Era
+	{
+		"name": "Itsukushima Shrine",
+		"uniqueTo": "Japan",
+		"faith": 4,
+		"culture": 4,
+		"isWonder": true,
+		"uniques": [
+			"[+10]% Strength <for [Water] units> <when fighting in [Friendly Water] tiles>",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Theology",
+		"quote": "'The sea is everything. It covers seven tenths of the terrestrial globe. Its breath is pure and healthy. It is an immense desert, where man is never lonely, for he feels life stirring on all sides.' - Jules Verne"
+	}
+	
+	
+]
+
+
+	       

@@ -5,7 +5,7 @@
     "replaces": "Scout",
     "uniqueTo":"Japan",
 		"movement": 3,
-		"strength": 7,
+		"strength": 8,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
@@ -25,7 +25,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": [
-			"[+25]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Mounted] units>","Can build [Samurai Castle] improvements on tiles"
 		],
 		"promotions": ["Shock I", "Great Generals II","Fighting Will"],
 		"attackSound": "metalhit"

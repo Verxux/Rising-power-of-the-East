@@ -1,0 +1,13 @@
+{
+		"name": "Ninja",
+		"unitType": "Scout",
+    "replaces": "Scout",
+    "uniqueTo":"Japan",
+		"movement": 3,
+		"strength": 7,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost","Survivalism I"],
+		"attackSound": "nonmetalhit"
+	},

@@ -2,6 +2,7 @@
 	// Feudal Japan Unique Tile Improvements
 	{
 		"name": "Samurai Castle",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"uniqueTo": "Japan",
 		"culture": 2,
 		"turnsToBuild": 6,
@@ -12,6 +13,7 @@
 	},
 	{
 		"name": "Tea Plantation",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Flood plains"],
 		"uniqueTo": "Japan",
 		"gold": 2,
 		"happiness": 1,
@@ -25,20 +27,21 @@
 	{
 		"name": "Torii Gate",
 		"uniqueTo": "Japan",
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"faith": 2,
 		"culture": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Philosophy",
 		"uniques": [
-			"Must be on [Hill]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 	},
 	{
 		"name": "Castle Town",
 		"uniqueTo": "Japan",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"gold": 2,
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Chivalry",
 		"uniques": [

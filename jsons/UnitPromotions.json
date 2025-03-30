@@ -1,0 +1,10 @@
+[
+{
+		"name": "Manuevering",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","[1] additional attacks per turn"]
+	},
+	{
+		"name": "Fighting Will",
+		"uniques": ["[+25]% Strength <when attacking>"]
+  },
+]

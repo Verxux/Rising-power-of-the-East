@@ -9,7 +9,7 @@
    	 "isNationalWonder": true,
 		"uniques": ["Cost increases by [5] per owned city",
 		"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-	  "New [Military] units start with [50] Experience all [non-[Puppeted]] cities", "[+10 Production] [in all cities]","[+5 Science] [in all cities]"],
+	  "New [Military] units start with [50] Experience [in all cities]", "[+10 Production] [in all cities]","[+5 Science] [in all cities]"],
 		"requiredTech": "Mining",
   },
       {
@@ -47,7 +47,7 @@
 		"replaces": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+10]% Great Person generation [in this city]", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
+		"uniques": ["[+20]% Great Person generation [in this city]", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 		"requiredTech": "Philosophy"
 	},
 	{

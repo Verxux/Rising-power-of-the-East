@@ -83,7 +83,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Daimyo General",
+		"name": "Daimyo",
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
 		"replaces": "Great General",

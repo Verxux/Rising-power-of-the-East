@@ -21,8 +21,8 @@
 		"strength": 23,
 		"cost": 120,
 		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"uniques": [
 			"[+25]% Strength <vs [Mounted] units>","Can build [Samurai Castle] improvements on tiles"
